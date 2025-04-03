@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 import { io } from "socket.io-client";
 import { motion, AnimatePresence } from "framer-motion";
 
-const socket = io("https://backend-chatwave.vercel.app/");
+const socket = io("https://backend-chatwave-production.up.railway.app/");
 
 export default function Chat() {
     const [username, setUsername] = useState("");
